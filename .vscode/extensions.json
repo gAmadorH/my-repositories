@@ -2,6 +2,7 @@
   "recommendations": [
     "DavidAnson.vscode-markdownlint",
     "EditorConfig.EditorConfig",
+    "HashiCorp.terraform",
     "streetsidesoftware.code-spell-checker"
   ]
 }
