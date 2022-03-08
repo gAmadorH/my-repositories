@@ -1,0 +1,32 @@
+{
+  // terraform
+  "[terraform]": {
+    "editor.defaultFormatter": "hashicorp.terraform",
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+      "source.formatAll.terraform": true
+    },
+  },
+  "[terraform-vars]": {
+    "editor.defaultFormatter": "hashicorp.terraform",
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+      "source.formatAll.terraform": true
+    },
+  },
+  "terraform-ls.experimentalFeatures": {
+    "validateOnSave": true
+  },
+  // vscode
+  "files.autoSave": "onFocusChange",
+  "editor.formatOnSave": true,
+  "editor.rulers": [
+    100
+  ],
+  // code spell checher
+  "cSpell.enabled": true,
+  "cSpell.words": [
+    "Amador",
+    "tfenv"
+  ]
+}
